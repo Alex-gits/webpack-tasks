@@ -1,0 +1,41 @@
+.app {
+  width: 700px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 7px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.panel {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-input {
+  margin: 20px 0;
+}
+
+.tasks-wrapper {
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.red {
+  background-color: red;
+}
